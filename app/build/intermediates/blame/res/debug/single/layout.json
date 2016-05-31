@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android Studio Project\\RabbitMQ-Android-Chat-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_send.xml",
+        "source": "E:\\Android Studio Project\\RabbitMQ-Android-Chat-master\\app\\src\\main\\res\\layout\\activity_send.xml"
+    },
+    {
+        "merged": "E:\\Android Studio Project\\RabbitMQ-Android-Chat-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_receive.xml",
+        "source": "E:\\Android Studio Project\\RabbitMQ-Android-Chat-master\\app\\src\\main\\res\\layout\\activity_receive.xml"
+    }
+]

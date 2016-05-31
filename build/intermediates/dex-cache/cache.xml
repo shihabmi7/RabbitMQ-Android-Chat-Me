@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\libs\commons-io-1.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0ad6ae511ca4608a18317fcb19850fd113bb2ae8">
+        <dex dex="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-io-1.2_982f2f6735fadb0c2e7fd7ec3447e9cb94de7690\classes.dex" />
+    </item>
+    <item
+        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_f0ab625e2aa242d01aa2cd3c4d39a3cf5323d1f8\classes.dex" />
+    </item>
+    <item
+        jar="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6fb14587fe89c3d7170f69c0a644db81c960f266">
+        <dex dex="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_58904b5a027a9eab2c00521da69b39e32fd89978\classes.dex" />
+    </item>
+    <item
+        jar="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\libs\rabbitmq-client.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7cc090300006369282da40f33d33ee8ea94e72c2">
+        <dex dex="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\rabbitmq-client_12813c046e701d0ff4f1872d856b42dd96b96cfa\classes.dex" />
+    </item>
+    <item
+        jar="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\libs\commons-cli-1.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="11c98b99ad538f2f67633afd4d7f4d98ecfbb408">
+        <dex dex="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-cli-1.1_e3bf99ee166d9e74602c473edc66afdfa264cc44\classes.dex" />
+    </item>
+    <item
+        jar="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="524eed1875960b21163529c2c9809f52e785a3ef">
+        <dex dex="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d711cc2fd342e7316f70d1c176cdc437ef6cdb30\classes.dex" />
+    </item>
+
+</items>
