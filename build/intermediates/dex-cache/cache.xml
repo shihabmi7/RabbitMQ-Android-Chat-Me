@@ -19,7 +19,7 @@
         jar="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="6fb14587fe89c3d7170f69c0a644db81c960f266">
+        sha1="016fa8940678e574d4dee461f893395541aabd6b">
         <dex dex="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_58904b5a027a9eab2c00521da69b39e32fd89978\classes.dex" />
     </item>
     <item
@@ -40,7 +40,7 @@
         jar="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="524eed1875960b21163529c2c9809f52e785a3ef">
+        sha1="9764fce7b8f74509c055bf48c4257e6800e9b8ac">
         <dex dex="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d711cc2fd342e7316f70d1c176cdc437ef6cdb30\classes.dex" />
     </item>
 

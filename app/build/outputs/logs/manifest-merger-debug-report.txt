@@ -45,17 +45,17 @@ ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\A
 		ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:18:13-45
 	android:name
 		ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:17:13-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:23:27-74
 activity#com.karthi.rabbitmq.ReceiveMessageActivity
 ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:name
 		ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:28:19-57
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:30:13-34:29
-action#android.intent.action.MAIN
-ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:31:17-69
-	android:name
-		ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:31:25-66
-category#android.intent.category.LAUNCHER
-ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:33:17-77
-	android:name
-		ADDED from E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\src\main\AndroidManifest.xml:33:27-74

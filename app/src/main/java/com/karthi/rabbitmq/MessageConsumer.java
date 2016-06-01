@@ -76,7 +76,8 @@ public class MessageConsumer extends  IConnectToRabbitMQ{
               return false;
           }
            if (MyExchangeType == "fanout")
-                 AddBinding("");//fanout has default binding
+               AddBinding("");
+         //fanout has default binding
 
           Running = true;
           mConsumeHandler.post(mConsumeRunner);

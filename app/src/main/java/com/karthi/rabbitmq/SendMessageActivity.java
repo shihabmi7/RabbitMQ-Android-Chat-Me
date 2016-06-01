@@ -19,11 +19,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class SendMessageActivity extends Activity {
+
     private MessageConsumer mConsumer;
     private TextView mOutput;
 
     private String message = "";
     private String name = "";
+
 
     /**
      * Called when the activity is first created.
@@ -38,27 +40,11 @@ public class SendMessageActivity extends Activity {
                 Toast.LENGTH_LONG).show();
 
 
-        final EditText edittext_messagebox = (EditText) findViewById(R.id.messagebox);
-        edittext_messagebox.setOnKeyListener(new OnKeyListener() {
-            public boolean onKey(View arg0, int arg1, KeyEvent arg2) {
-                // If the event is a key-down event on the "enter" button
-                if ((arg2.getAction() == KeyEvent.ACTION_DOWN)
-                        && (arg1 == KeyEvent.KEYCODE_ENTER)) {
-                    // Perform action on key press
-                    message = name + ": " + edittext_messagebox.getText().toString();
-                    new send().execute(message);
-                    edittext_messagebox.setText("");
-                    return true;
-                }
-                return false;
-            }
-        });
-
-        // The output TextView we'll use to display messages
-        mOutput = (TextView) findViewById(R.id.output);
+        initialUI();
 
         // Create the consumer
-        mConsumer = new MessageConsumer(ApplicationData.URL, ApplicationData.EXCHANGE_NAME, ApplicationData.EXCHANGE_TYPE);
+        mConsumer = new MessageConsumer(ApplicationData.URL,
+                ApplicationData.EXCHANGE_NAME, ApplicationData.EXCHANGE_TYPE);
         new Consumerconnect().execute();
         // register for messages
         mConsumer.setOnReceiveMessageHandler(new OnReceiveMessageHandler() {
@@ -78,6 +64,27 @@ public class SendMessageActivity extends Activity {
 
     }
 
+    private void initialUI() {
+        final EditText edittext_messagebox = (EditText) findViewById(R.id.messagebox);
+        edittext_messagebox.setOnKeyListener(new OnKeyListener() {
+            public boolean onKey(View arg0, int arg1, KeyEvent arg2) {
+                // If the event is a key-down event on the "enter" button
+                if ((arg2.getAction() == KeyEvent.ACTION_DOWN)
+                        && (arg1 == KeyEvent.KEYCODE_ENTER)) {
+                    // Perform action on key press
+                    message = name + ": " + edittext_messagebox.getText().toString();
+                    new send().execute(message);
+                    edittext_messagebox.setText("");
+                    return true;
+                }
+                return false;
+            }
+        });
+
+        // The output TextView we'll use to display messages
+        mOutput = (TextView) findViewById(R.id.output);
+    }
+
     private class send extends AsyncTask<String, Void, Void> {
 
         @Override
@@ -91,15 +98,15 @@ public class SendMessageActivity extends Activity {
                 // external server
                 // which has RabbitMQ installed on it. So I use "setUsername"
                 // and "setPassword"
-                factory.setUsername("guest");
-                factory.setPassword("guest");
+                factory.setUsername(ApplicationData.USER_NAME);
+                factory.setPassword(ApplicationData.PASS);
                 //factory.setVirtualHost("karthi");
-                factory.setPort(5672);
+                factory.setPort(ApplicationData.PORT);
 
                 System.out.println("Host: " + factory.getHost() +
-                        " Port: " + factory.getPort() + ""
-                        + factory.getRequestedHeartbeat() + ""
-                        + factory.getUsername());
+                        " Port: " + factory.getPort() + " Heart Beat: "
+                        + factory.getRequestedHeartbeat() + " User Name: "
+                        + factory.getUsername() );
 
 
                 Connection connection = factory.newConnection();

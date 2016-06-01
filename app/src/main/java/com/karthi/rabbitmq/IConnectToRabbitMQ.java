@@ -12,7 +12,7 @@ import com.rabbitmq.client.ConnectionFactory;
  * Base class for objects that connect to a RabbitMQ Broker
  */
 public abstract class IConnectToRabbitMQ {
-	  public String mServer;
+    public String mServer;
     public String mExchange;
 
     protected Channel mModel = null;
@@ -30,8 +30,8 @@ public abstract class IConnectToRabbitMQ {
      */
     public IConnectToRabbitMQ(String server, String exchange, String exchangeType)
     {
-  	  mServer = server;
-  	  mExchange = exchange;
+        mServer = server;
+        mExchange = exchange;
         MyExchangeType = exchangeType;
     }
 
