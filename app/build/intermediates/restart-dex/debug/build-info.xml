@@ -4,26 +4,27 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="610656058230890" >
+    timestamp="249319605520904"
+    token="-6275870773751285418" >
 
     <task
         name="javac"
-        duration="275" />
+        duration="10701" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="260" />
+        duration="1140" />
     <task
         name="verifier"
-        duration="26" />
+        duration="65" />
 
     <artifact
         location="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="610656058230890" >
+    <build timestamp="249319605520904" >
         <artifact
             location="E:\Android Studio Project\RabbitMQ-Android-Chat-master\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
